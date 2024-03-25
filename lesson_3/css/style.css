@@ -1,0 +1,29 @@
+@import url("reset.css");
+body{
+	background-color: rgba(255, 108, 248, 0.274);
+}
+h1{
+	color: brown;
+}
+h2{
+	color: rgb(148, 0, 116);
+}
+p{
+	color: rgba(6, 63, 11, 0.637);
+}
+mark{
+	color: rgb(198, 218, 19);
+	background-color: blue;
+}
+
+.title{
+	color: rgba(14, 2, 182, 0.808);
+}
+.subtitle{
+	color: rgb(3, 105, 105);
+}
+.text{
+	color: rgba(52, 1, 109, 0.849);
+}
+
+
