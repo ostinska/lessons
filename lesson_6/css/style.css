@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("fonts.css");
+
+
+@import url("reset.css");
+body{
+	font-family: "Proximanova", sans-serif;
+    font-weight: 400;
+	font-style: normal;
+    text-transform: none;
+    color: rgba(43, 41, 41, 1);
+	line-height: 1.875;
+}
+h3{
+	font-size: 40px;
+	text-transform: none;
+    line-height: 48px;
+    text-align: center;
+} 
+
+p{
+	text-align: left;
+    line-height: 30px;
+} 
+li{
+	margin: 20px auto;
+	padding-left: 47px;
+	background: url(../img/mark.png) no-repeat left top;
+	min-height: 14px;
+	
+}
+h4{
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 600;
+	margin: 40px 0 30px 0;
+}
+
+.living-room{
+	max-width: 1070px;
+	margin: 40px auto;	
+}
+
+.living-room-img{
+	margin: 40px 0px;
+}
+
+.page-2{
+	background-image: url(../img/ajnj.png);
+	background-position: center;
+	background-size: cover;
+}
+.explore{
+	font-family: "Quicksand", sans-serif;
+	font-style: normal;
+	color: #fff;
+	text-transform: none;
+	text-align: left;
+	max-width: 1280px;
+    margin: 0 auto;
+	
+}
+.conteiner-explore{
+    display: inline-block;
+    max-width: 600px;
+    padding: 200px 0;
+    margin-right: 50px;
+}
+
+.conteiner-explore-title{
+font-size: 40px;
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 24px;
+
+}
+
+
+.conteiner-explore-text{
+	font-size: 20px;
+	margin-top: 0;
+	font-weight: 500;
+	line-height: 32px;
+	margin-bottom: 0;
+	letter-spacing: 0;
+
+}
+
+.explore-img{
+	max-width: 515px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 70px;
+	
+}
+
+.collections-conteiner{
+	display: inline-block;
+    max-width: 686px; 
+	max-height: 364px;
+	margin: 155px 98px 184px 155px; 
+}
+
+.conteiner-explore-link{
+	margin-top: 24px;
+	margin-right: 513px;
+	
+	
+}
+.page-3{
+	background-image: url(../img/top-main.png);
+	background-position: center;
+	background-size: cover;
+}
+.collections-img{
+	max-width: 442px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 70px;
+}
+.collections-conteiner-text-1{
+font-size: 30px;
+font-style: normal;
+margin-top: 0;
+text-align: left;
+font-family: "Roboto",sans-serif;
+font-weight: 400;
+line-height: 55px;
+margin-bottom: 9px;
+letter-spacing: 0;
+text-transform: none;
+margin-bottom: 66px;
+
+}
+.collections-conteiner-title-1{
+	color: #000;
+  font-size: 74px;
+  font-style: normal;
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+  line-height: 55px;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-bottom: 52px;
+}
+.button{
+width: 223px;
+height: 72px;
+}
+
