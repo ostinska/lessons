@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url("fonts.css");
+
+
+@import url("reset.css");
+body{
+	font-family: "Proximanova", sans-serif;
+    font-weight: 400;
+	font-style: normal;
+    text-transform: none;
+    color: rgba(43, 41, 41, 1);
+	line-height: 1.875;
+}
+h3{
+	font-size: 40px;
+	text-transform: none;
+    line-height: 48px;
+    text-align: center;
+} 
+
+p{
+	text-align: left;
+    line-height: 30px;
+} 
+li{
+	margin: 20px auto;
+	padding-left: 47px;
+	background: url(../img/mark.png) no-repeat left top;
+	min-height: 14px;
+	
+}
+h4{
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 600;
+	margin: 40px 0 30px 0;
+}
+
+.living-room{
+	max-width: 1070px;
+	margin: 40px auto;	
+}
+
+.living-room-img{
+	margin: 40px 0px;
+}
+
+.link-1{
+	background-color: rgb(42, 11, 241);
+	color: azure;
+	padding: 12px;
+	margin: 20px;
+	border-radius: 0% 100% 0% 100% / 66% 35% 65% 34% ;	
+}
+
+
+.link-1:hover{
+border-radius: 13% 87% 47% 53% / 100% 30% 70% 0% ;
+	padding: 44px;
+	background: url("../img/фото-1.jfif") 0 0 no-repeat;
+}
+
+
+.link-2{
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(185,108,124,1) 100%);
+	color: rgb(254, 255, 255);
+	padding: 12px;
+	margin: 20px;
+}
+.link-2:hover{
+		text-decoration: underline;
+		color: black;
+		padding: 24px;
+	}
+
+.link-2:active{
+	background-color: blueviolet;
+}
+
+.link-3{
+	border-radius: 82% 18% 83% 17% / 16% 42% 58% 84% ;
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	color: azure;
+	padding: 12px;
+	margin: 20px;
+}
+.link-3:hover{
+	background:linear-gradient(0deg, rgba(254,255,32,1) 39%, rgba(6,69,255,1) 67%);	
+	color: brown;
+	padding: 18px;
+}
+.link-3:focus-visible{
+	outline: 3px solid blue;
+}
+
+.link-3:visited{
+	background-color: rgb(130, 130, 190);
+}
+.text-1{
+	color: rgb(183, 33, 170);
+	border: 11px solid red; 
+	padding: 55px;
+	margin-bottom: 20px;
+}
+.text-1:hover{
+	border: 15px double green;
+}
+.text-1:hover p{
+	font-size: 24px;
+	box-shadow: inset 5px 5px 15px 5px rgba(199, 162, 162, 0.8),
+	5px 5px 5px 15px rgba(66, 11, 53, 0.8);
+}
+
+.text-2{
+	color: rgb(183, 33, 170);
+	padding: 55px;
+	margin-bottom: 20px;
+	outline: 10px solid rgb(205, 50, 117);
+}
+.text-2:hover{
+box-shadow: inset 0 0 10px 0px rgba(175, 86, 120, 0.8),
+5px 5px 5px 10px rgba(187, 70, 103, 0.8);
+}
+.text-2:hover p{
+	font-family:'Quicksand', sans-serif;
+	color: red;
+}
+.text-2:has(h5){
+	color: greenyellow;
+
+}
+.text-3 p:first-child{
+	background-color: rgba(0, 0, 255, 0.229);
+	color: blueviolet;
+}
+.text-3 p:last-child{
+	font-size: 24px;
+	color: red;
+}
+
+.text-3 p:nth-child(4){
+color: aqua;
+}
+.text-3 p:nth-child(even){
+	font-style: italic;
+	
+}
+.text-3 p:nth-child(odd){
+	font-style: inherit;
+	
+}
+.text-3 p:nth-child(1n + 2){
+	text-decoration: line-through;
+}
+
+.text-3 p:nth-child(2n){
+	font-size: x-small;
+}
+
+.page-2{
+	background: url(..//img/Aboutsection.png);
+	color: #fff;
+	font-family: "Exo",sans-serif;
+}
+.about-me{
+	padding: 120px 260px 60px 260px;
+
+}
+.about-me-title{
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 70px;
+	text-align: center;
+}
+.about-me-title:after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 35%;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);}
+
+.about-me-text{
+	width: 100%;
+  max-width: 992px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+
+}
+.about-me-text-1{
+	font-size: 18px;
+	font-style: normal;
+	margin-top: 0;
+	text-align: center;
+	font-weight: 400;
+	line-height: 40px;
+	margin-bottom: 0;
+	letter-spacing: -1px;
+	text-transform: none;
+}
+
+.about-list{
+	margin-bottom: 80px;
+	display: inline-block;
+	margin-left: 181px;
+	
+}
+
+.about-list-1{
+	display: inline-block;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.about-list-1::after{
+	content: '';
+    width: 10px;
+    height: 10px;
+    margin-left: 60px;
+    border-radius: 100%;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+}
+.about-list-1:hover{
+	color: rgba(186, 5, 5, 0.97);
+}
+.about-contact{
+	margin-left: 300px;
+}
+.about-contact:hover a {
+	color: rgb(48, 6, 236);
+}
+.about-contact-1{
+	display: inline-block;
+	
+}
+.about-contact-1::before{
+	content: '';
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+	margin-left: 80px;
+	margin-right: 10px;
+	background: url(../img/Call.svg);
+}
+.about-contact-2{
+	display: inline-block;
+	
+}
+.about-contact-2::before{
+	content: '';
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+	margin-left: 80px;
+	margin-right: 10px;
+	background: url(../img/Location.svg);
+}
+.about-contact-3{
+	display: inline-block;
+	
+}
+.about-contact-3::before{
+	content: '';
+	width: 20px;
+	height: 20px;
+	margin-left: 80px;
+	vertical-align: middle;
+	margin-right: 10px;
+	background: url(../img/Email.svg);
+	
+}
+
+h2{
+	margin-bottom: 200 auto;
+	font-family: 'Proxima Nova' sans-serif;
+	font-weight: 700;
+    font-style: normal;
+	font-size: 34px;
+	text-align: center;
+	color: rgb(128, 0, 255);
+}
+.game{
+	font-size: 0;
+    max-width: 1000px;
+    min-height: 640px;
+    background-color: #4bd9e8;
+    padding: 50px;
+	margin: 25px auto 25px;
+    margin-bottom: 150px;
+	outline: 10px solid rgb(229, 255, 0);
+}
+.line{
+	background: radial-gradient(circle, rgba(255,32,32,1) 8%, rgba(0,0,0,1) 67%);
+
+
+}
+.line-1{
+	background: black;
+	width: 20px;
+    height: 20px;
+}
+
+.line-2{
+	width: 20px;
+    height: 20px;
+}
+.line-1:hover + .line-2,
+.line-2:hover{
+    width: 100%;
+}
+
+.line-3{
+	margin-left: 100%;
+    visibility: hidden;
+    margin-top: -20px;
+    width: 20px;
+    height: 100px;
+}
+.line-2:hover ~ .line-3,
+.line-3:hover{
+    visibility: visible;
+}
+.line-4{
+	width: 100%;
+    height: 20px;
+    visibility: hidden;
+    margin-top: -20px;
+}
+.line-3:hover ~ .line-4,
+.line-4:hover{
+    visibility: visible;
+}
+
+.line-5{
+	width: 20px;
+    height: 160px;
+    visibility: hidden;
+    margin-top: -20px;
+}
+.line-4:hover ~ .line-5,
+.line-5:hover{
+	visibility: visible;
+	
+}
+.img-game{
+	background: url('../img/scarb.png');
+    visibility: hidden;
+    height: 250px;
+    width: 100%;
+}
+
+.line-5:hover ~ .img-game,
+.img-game:hover{
+	visibility: visible;
+	
+}
+
+
+
+
