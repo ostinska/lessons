@@ -1,0 +1,296 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+body{
+    background-color: rgb(2, 34, 95);
+}
+.page{
+    padding: 20px;
+    
+}
+
+.header{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(120, 237, 107);
+   border-radius: 25px;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+    width: 600px;
+    outline: solid 2px  rgba(236, 2, 2, 0.7);
+    box-shadow: 0px 0px 20px rgba(236, 2, 2, 0.7);
+}
+.practice {
+    padding: 40px;
+    outline: solid 5px black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+ 
+}
+.title{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(237, 107, 224);
+   border-radius: 25px;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+    width: 600px;
+    outline: solid 2px  rgba(236, 2, 2, 0.7);
+    box-shadow: 0px 0px 20px rgba(236, 2, 2, 0.7);  
+}
+.block{
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+	height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;  
+}
+.item{
+    text-align: center;
+    display: inline-block;
+    width: 280px;
+	height: 280px;
+    background-color: rgb(5, 112, 1);
+    transition: all 0.3s ease 0s;
+
+}
+.block-1__item:hover{
+    background-color: aquamarine;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: translate(25%, 20%);
+}
+
+.block-2__item:hover{
+    background-color: blueviolet;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(0.7)
+}
+.block-3__item:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: rotate(120deg);
+}
+.block-4__item:hover{
+    background-color: red;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: skew(10deg, 20deg);
+}
+.block-5__item:hover{
+    background-color: pink;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: translate(15px, 25px) scale(0.8) rotate(120deg) skew(20deg, 20deg);
+}
+.block-6__item:hover{
+    background-color: peru;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: rotate(180deg);
+	transform-origin: top;
+}
+.block-3d-1{
+    perspective: 200px;
+	perspective-origin: center;
+    
+}
+.block-3d-1__item:hover{
+    background-color: aquamarine;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: rotateX(40deg);
+}
+.block-3d-2{
+    perspective: 400px;
+    
+
+}
+.block-3d-2__item:hover{
+    background-color: blueviolet;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
+   transform: translate3d(20px, 20px, 20px);;
+    opacity: 0.8;
+}
+.block-3d-3{
+    perspective: 400px;
+    transform-style: preserve-3d;
+    
+
+}
+.block-3d-3__item{
+    transform: rotateY(180deg);
+}
+.block-3d-3__item:hover{
+    background-color: yellow;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: rotateY(0deg);
+    opacity: 0.8;
+}
+.block-3d-4{
+    perspective: 400px;
+    transform-style: flat;
+    
+
+}
+.block-3d-4__item{
+    transform: rotateY(180deg);
+}
+.block-3d-4__item:hover{
+    background-color: red;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform: rotateY(0deg);
+    opacity: 0.8;
+}
+.block-3d-5{
+    perspective: 400px;
+    transform-style: preserve-3d;
+}
+.block-3d-5__item:hover{
+    background-color:pink;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    transform:  rotate3d(0, 0, 1, 180deg);
+    transform-origin: bottom;
+    opacity: 0.8;
+}
+
+.block-3d-6{
+    position: relative;
+	width: 300px;
+	perspective: 800px;
+}
+.front{
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.back{
+    backface-visibility: hidden;
+    background-color: blue;
+    transform: rotateY(180deg);
+    
+}
+.block-3d-6:hover  .back {
+	transform: rotateY(0deg);
+}
+.block-3d-6:hover .front {
+	transform: rotateY(-180deg);
+}
+.block-3d-6__item{
+    
+}
+.block-3d-6__item:hover{
+    
+}
+.container {
+}
+.car {
+   background-color: aquamarine;
+   position: relative;
+   height: 600px;
+}
+
+.car__window {
+    background-color: rgb(23, 199, 230);  
+    width: 185px;
+    height: 100px;
+    border-radius:0% 100% 100% 0% / 0% 100% 0% 100%  ;
+    border: 10px double black;
+    position: relative;
+    left: 300px;
+    bottom: -250px;
+    z-index: 10;
+   
+
+}
+.mirrol {
+    width: 180px;
+    border-radius:100% 0% 100% 0% / 77% 100% 0% 23%  ;
+    border: 10px double black;
+    position: relative;
+    left: 100px;
+    bottom: -150px;
+    z-index: 11;
+}
+.car__salon-trunk{
+    background-color:  rgb(136, 6, 6);
+    width: 200px;   
+    height: 150px;
+    border-radius: 100% 0% 100% 0% / 100% 19% 81% 0% ;
+    position: relative;
+    left: 60px;
+    top: -130px;
+}
+.car__salon-hood{
+    background-color:  rgb(136, 6, 6);
+    width: 270px;   
+    height: 150px;;
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0% ;
+    position: relative;
+    left: 250px;
+    top:20px;
+}
+.car__hood {
+    background-color:  rgb(136, 6, 6);
+    width: 350px;
+    height: 180px;
+    border-radius:0% 100% 53% 47% / 100% 89% 11% 0%  ;
+    position: relative;
+    left: 380px;
+    bottom: 170px;
+}
+.car__body{
+    background-color:  rgb(136, 6, 6);
+    width: 270px;
+    height: 180px;
+    position: relative;
+    left: 240px;
+    bottom: 350px;
+
+}
+.car__trunk {
+    background-color: rgb(136, 6, 6);
+    width: 350px;
+    height: 180px;
+   border-radius: 59% 41% 83% 17% / 64% 94% 6% 36% ;
+   position: relative;
+    left: 0px;
+    bottom: 525px;
+}
+.car__wheel {
+    background-color: gray;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 10px dashed black;
+    box-shadow: -8.3px -6.4px 2.7px rgba(0, 0, 0, 0.024);
+    padding: 50px; 
+    position: relative;
+    top:-600px; 
+    left: 70px;
+}
+.wheel-smal{
+    border-radius: 50%;
+    width: 30px;  
+    height: 30px;
+    background-color: yellow;
+    border: 10px double black;
+}
+.right{
+    position: relative;
+    top:-750px; 
+    left: 500px;  
+}
+.tap:hover .car__wheel{
+    transform: rotate(400deg);
+    transition: all 5s ease 0s;
+}
