@@ -1,0 +1,472 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+body{
+    background: radial-gradient(circle, rgba(255,32,32,1) 4%, rgba(0,0,0,0.9108893557422969) 57%);
+}
+.page{
+    padding: 20px; 
+}
+
+.header{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(120, 237, 107);
+   border-radius: 25px;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+    width: 600px;
+    outline: solid 2px  rgba(236, 2, 2, 0.7);
+    box-shadow: 0px 0px 20px rgba(236, 2, 2, 0.7);
+}
+.practice {
+    
+    outline: solid 5px black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+ 
+}
+.title{
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(237, 107, 224);
+   border-radius: 25px;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+    width: 600px;
+    outline: solid 2px  rgba(236, 2, 2, 0.7);
+    box-shadow: 0px 0px 20px rgba(236, 2, 2, 0.7);  
+}
+.block{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+	height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;  
+}
+.item{
+    text-align: center;
+    width: 280px;
+	height: 280px;
+    background-color: rgb(19, 0, 112);
+
+
+}
+.container {
+}
+.test-3{
+    outline: none;
+    background-image: url(..//img/doroga.webp);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: 800px;
+}
+.car {
+    left: -400px;
+   bottom: 1100px;
+   position: relative;
+   height: 600px;
+  animation-name:movement;
+    animation-duration: 5s;
+    animation-delay: 7s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.men{
+    transform: scale(-1,1);
+    position: relative;
+    top: -30px;
+   left: -10px;
+   animation-name: sit;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.woman{
+    position: relative;
+   top: -500px;
+   left: 300px;
+   z-index: 12;
+   animation-name: sit;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+
+.text{
+    padding: 35px;
+    border-radius: 45% 55% 47% 53% / 67% 31% 69% 33% ;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 200px;
+    left: 5px;
+    animation-name: speak;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transform: scale(0);
+}
+.text-2{
+    padding: 35px;
+    border-radius: 45% 55% 47% 53% / 67% 31% 69% 33% ;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom:500px;
+    left: 400px;
+    animation-name: speak;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    transform: scale(0); 
+    
+
+}
+@keyframes speak {
+    0% {
+        
+        transform: scale(0.2); 
+        
+	}
+    25% {
+       
+        transform: scale(0.7); 
+       
+	}
+    80%{
+        transform: scale(1); 
+       
+    }
+	
+	100% {
+        
+      visibility: hidden;
+	}
+
+}
+@keyframes movement {
+    0% {
+        
+        translate: 0px 0px;
+	}
+    50% {
+        
+        translate: 400px 0px;
+	}
+    75%{
+        translate: 800px 0px;
+    }
+	
+	100% {
+        
+        translate: 2200px 0px ;
+	}
+
+}
+@keyframes sit {
+    0% {
+        
+        translate: 0px 0px;
+	}
+    50% {
+        
+        translate: -200px 0px;
+	}
+	
+	100% {
+        
+        translate: -300px 0px ;
+        visibility: hidden;
+	}
+
+}
+@keyframes wheels {
+    0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+
+}
+
+
+.car__window {
+    background-color: rgb(23, 199, 230);  
+    width: 185px;
+    height: 100px;
+    border-radius:0% 100% 100% 0% / 0% 100% 0% 100%  ;
+    border: 10px double black;
+    position: relative;
+    left: 300px;
+    bottom: -250px;
+    z-index: 10;
+   
+
+}
+.mirrol {
+    width: 180px;
+    border-radius:100% 0% 100% 0% / 77% 100% 0% 23%  ;
+    border: 10px double black;
+    position: relative;
+    left: 100px;
+    bottom: -150px;
+    z-index: 11;
+}
+.car__salon-trunk{
+    background-color:  rgb(136, 6, 6);
+    width: 200px;   
+    height: 150px;
+    border-radius: 100% 0% 100% 0% / 100% 19% 81% 0% ;
+    position: relative;
+    left: 60px;
+    top: -130px;
+}
+.car__salon-hood{
+    background-color:  rgb(136, 6, 6);
+    width: 270px;   
+    height: 150px;;
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0% ;
+    position: relative;
+    left: 250px;
+    top:20px;
+}
+.car__hood {
+    background-color:  rgb(136, 6, 6);
+    width: 350px;
+    height: 180px;
+    border-radius:0% 100% 53% 47% / 100% 89% 11% 0%  ;
+    position: relative;
+    left: 380px;
+    bottom: 170px;
+}
+.car__body{
+    background-color:  rgb(136, 6, 6);
+    width: 270px;
+    height: 180px;
+    position: relative;
+    left: 240px;
+    bottom: 350px;
+
+}
+.car__trunk {
+    background-color: rgb(136, 6, 6);
+    width: 350px;
+    height: 180px;
+   border-radius: 59% 41% 83% 17% / 64% 94% 6% 36% ;
+   position: relative;
+    left: 0px;
+    bottom: 525px;
+}
+.car__wheel {
+    background-color: gray;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 10px dashed black;
+    box-shadow: -8.3px -6.4px 2.7px rgba(0, 0, 0, 0.024);
+    padding: 50px; 
+    position: relative;
+    top:-600px; 
+    left: 70px;
+    animation-name: wheels;
+    animation-iteration-count: 5;
+    animation-duration: 1s;
+    animation-delay: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.wheel-smal{
+    border-radius: 50%;
+    width: 30px;  
+    height: 30px;
+    background-color: yellow;
+    border: 10px double black;
+}
+.right{
+    position: relative;
+    top:-750px; 
+    left: 500px;  
+}
+
+
+.block-1 {
+    perspective: 300px;
+    transform-style: flat;
+    display: inline-block;
+}
+.block-1__item {
+    transition-duration: 0.4s;
+    padding: 25px;
+    
+}
+.block-1__item:hover{
+background-color: red;
+transition-duration: 0.8s;
+border-radius: 49% 51% 75% 25% / 50% 65% 35% 50% ;
+transform: translate3d(20px, 20px, 20px);
+}
+
+.block-2 {
+    display: inline-block;
+}
+.block-2__item {
+    padding: 25px;
+    border-radius: 50%;
+    transition-duration: 0.1s, 3s;
+    transition-property: background-color, transform ;
+    box-shadow: 15px 6px 80px rgba(0, 0, 0, 1);
+    
+
+}
+.block-2__item:hover{
+    background-color: rgb(255, 0, 144);
+    transform: scale(0.5);
+    box-shadow:15px 6px 80px rgba(235, 15, 73, 0.568);
+   transition-duration: 0.5s, 2s;
+   transition-property: background-color, transform ;
+
+    }
+.block-3 {
+    display: inline-block;
+}
+.block-3__item {
+    padding: 25px;
+    transition-duration: 0.1s, 3s;
+    transition-delay: 2s, 0.3s;
+    transition-property: background-color, transform;
+    box-shadow: 15px 6px 80px rgba(0, 0, 0, 1);
+}
+.block-3 :hover{
+    background-color: rgb(225, 255, 0);
+    transform: scale(0.5);
+    border-radius: 50%;
+    box-shadow:15px 6px 80px rgba(220, 235, 15, 0.568);
+    transition-delay: 1.5s, 0.3s, 0s;
+   transition-duration: 0.5s, 2s, 0.3s ;
+   transition-property: background-color, transform, border-radis ;
+
+    }
+.block-4 {
+    display: inline-block;
+    perspective: 300px;
+    transform-style: flat;
+}
+.block-4__item {
+    
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: 0px 15px 80px rgba(0, 0, 0, 1);
+    transition-duration: 0.5s;
+	transition-timing-function: cubic-bezier(0.05,0.46,0.46,0.54);
+}
+.block-4__item:hover{  
+    background: linear-gradient(90deg, rgba(230,63,251,1) 0%, rgba(108,181,185,0.9501050420168067) 100%);
+    transform:  rotate3d(1.5, 1, 1, 180deg) scale3d(1.25, 1.25, 1.25); 
+    cubic-bezier:(.05,.46,.46,.54);
+}
+
+.block-5 {
+}
+.block-5__item {
+    border-radius: 56% 44% 20% 80% / 79% 9% 91% 21% ;
+     background:  linear-gradient(232deg, rgba(246,2,2,0.8660714285714286) 6%, rgba(37,214,57,1) 48%, rgba(0,251,67,1) 64%, rgba(1,206,100,1) 71%, rgba(8,0,252,1) 100%);
+    animation-name: forma;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes forma {
+    0%{
+        border-radius: 56% 44% 20% 80% / 79% 9% 91% 21% ;  
+    }
+    25%{
+        border-radius: 40% 60% 12% 88% / 86% 0% 100% 14%  ;  
+    }
+    50%{
+        border-radius: 23% 77% 7% 93% / 90% 11% 89% 10%  ;  
+    }
+    75%{
+        border-radius: 6% 94% 5% 95% / 95% 3% 97% 5% ;  
+    }
+    100%{
+        border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%  ;  
+    }
+
+}
+.block-6 {
+}
+.block-6__item {
+    animation-name:  rotate, translate;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes rotate{
+    0% {
+        rotate: 0deg;
+        background-color: rgb(19, 0, 112);
+	}
+    50% {
+        rotate: 190deg;
+        background-color: rgba(32, 16, 116, 0.77); 
+	}
+	
+	100% {
+        rotate: 360deg;
+        background-color: rgb(19, 0, 112);
+	}
+}
+@keyframes translate {
+    0% {
+        
+        translate: 0px 0px;
+	}
+    50% {
+        
+        translate: 400px 0px;
+	}
+	
+	100% {
+        
+        translate: 800px 0px ;
+	}
+}
+.block-7 {
+}
+.block-7__item {
+    padding: 25px;
+    border-radius: 50% ;
+    background:  linear-gradient(232deg, rgba(246,2,2,0.8660714285714286) 6%, rgba(37,214,57,1) 48%, rgba(0,251,67,1) 64%, rgba(1,206,100,1) 71%, rgba(8,0,252,1) 100%);
+    animation-name: translate;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+.block-7__item:hover{
+    animation-play-state:paused;
+  
+}
+
