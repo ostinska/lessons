@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>lesson_14</title>
+</head>
+
+<body>
+	<div class="wraper">
+		<header class="header">
+      <h1> Урок№14. Форми</h1>
+		</header>
+			<main class="page">
+				<div class="dz">
+          <div class="title"><h2>Оформлення замовлення</h2></div>
+          <div class="dz__form">
+            <h2 class="inform">Інформація про покупця</h2>
+            <form enctype="multipart/form-data" action="#" class="form">
+              <div class="dani form">
+                <input name="form[]" type="text" placeholder="Прізвище" id="" class="form__line" tabindex="1" required>
+                <input name="form[]" type="tel" placeholder="Контактний телефон" id="4" class="form__line" tabindex=""required>
+                <input name="form[]" type="text" placeholder="Ім’я" id="" class="form__line" tabindex="2" required>
+                <input name="form[]" type="email" placeholder="E-mail" id="" class="form__line" tabindex="5" required>
+                <input name="form[]" type="text" placeholder="По батькові" id="" class="form__line" tabindex="3" required>
+              </div>
+              <div class="people">
+                <input type="checkbox" id="get" name="form[]" class="people__checkbox" >
+                <label class="people__title" for="get">Отримуватиме замовлення інша людина</label>
+                
+              </div>
+              <h2 class="inform background">Вибір способу доставки</h2>
+              <div class="dostavka">
+                <div class="dostavka__radio radio">
+                  <label class="radio__lable" for="store">
+                    <span  class="radio__text"> <p class="radio__text--title"> Самовивіз із магазину</p> 
+                      <p class="radio__text--price">Бесплатно</p></span>
+                    <input id="store"   class="radio__input" type="radio" value="6">
+                  </label>
+                  
+                </div>
+                <div class="dostavka__radio radio">
+                  <label class="radio__lable" for="np">
+                    <span  class="radio__text background--np"> <p class="radio__text--title ">Доставка Нова Пошта</p> 
+                      <p class="radio__text--price">≈ від 500 грн</p></span>
+                    <input id="np"   class="radio__input" type="radio" value="7">
+                  </label>
+                  
+                </div>
+                <div class="dostavka__radio radio">
+                  <label class="radio__lable " for="courier">
+                    <span  class="radio__text background--courier"> <p class="radio__text--title"> Доставка кур'єром</p> 
+                      <p class="radio__text--price">≈ від 200 грн</p></span>
+                    <input id="courier"   class="radio__input" type="radio" value="8">
+                  </label>
+                  
+                </div>
+               
+              </div>
+              <div class="map"> 
+                <div class="map__text">
+                   <div class="map__text--schedule"> <p class="schedule">Графік роботи: щодня з 9:00 до 18:00
+                  </p></div>
+                  <div class="map__text--location"> <p class="location">м. Київ, пров. Ізяславський 52, пов. 2</p></div>
+                </div>
+                <div class="map__button">
+                  <div class="map__button--1">
+                    На мапі
+                  </div>
+                </div>
+              </div>
+              <div class="payment">
+                <h2 class="inform background-2">Вибір способу оплати</h2>
+                <div class="form__radio-btn radio-btn">
+                  <label class="radio-btn__label" for="cash">
+                    <input id="cash" class="radio-btn__input" checked name="radio-item" value="9" type="radio">
+                    <span class="radio-btn__text">Готівкою при отриманні (Післясплата)</span>
+                  </label>
+                  <label class="radio-btn__label" for="card">
+                    <input id="card" class="radio-btn__input" name="radio-item" value="10" type="radio">
+                    <span class="radio-btn__text">Оплата карткою на сайті</span>
+                  </label>
+                  <label class="radio-btn__label" for="privat">
+                    <input id="privat" class="radio-btn__input" name="radio-item" value="11" type="radio">
+                    <span class="radio-btn__text">Privat Pay</span>
+                  </label>
+                  <label class="radio-btn__label" for="credit">
+                    <input id="credit" class="radio-btn__input" name="radio-item" value="12" type="radio">
+                    <span class="radio-btn__text">Кредит від Krovato</span>
+                  </label>
+                  <label class="radio-btn__label" for="part-privat">
+                    <input id="part-privat" class="radio-btn__input" name="radio-item" value="13" type="radio">
+                    <span class="radio-btn__text">Оплата частинами ПриватБанк</span>
+                  </label>
+                  <label class="radio-btn__label" for="part-mono">
+                    <input id="part-mono" class="radio-btn__input" name="radio-item" value="14" type="radio">
+                    <span class="radio-btn__text">Оплата частинами МоноБанк</span>
+                  </label>
+                </div>
+               
+              </div>
+              <div class="comment">
+                <h2 class="inform background-3">Коментар до замовлення</h2>
+                <div class="comment__line">
+                <textarea autocomplete="off" placeholder="Ваш коментар" name="message" class="comment__line--area"  ></textarea>
+                </div>
+              </div>    
+                 <button type="submit">ОФОРМИТИ ЗАМОВЛЕННЯ</button>
+            </form>
+          </div>
+        </div>
+        
+   
+
+       
+
+
+
+			</main>		
+	</div>
+			
+			
+			<footer class="footer">
+				<h2>footer</h2>
+			</footer>
+
+</body>
+
+</html>
