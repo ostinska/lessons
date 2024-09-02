@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Lesson_21</title>
+</head>
+
+<body>
+  <div class="wraper">
+    <header class="header">
+      <h1 class="header__title">Oснови JS. Частина 1</h1>
+
+    </header>
+    <main class="page">
+      <div class="page__container">
+        <div class="homework">
+          <div class="homework__item">
+            <h2 class="question">Задача №1
+              Яка назва змінної вірна</h2>
+            <p class="condition">
+              1-let user-name
+              2-let UserName
+              3-let userName</p>
+            <p class="respond"> Відповідь: вірна назва змінної 3-let userName, адже назва відповідає правилам та
+              використаний стиль lowerCamelCase </p>
+          </div>
+
+          <div class="homework__item">
+
+            <h2 class="question">Задача №2
+              Чи буде помилка при виконанні наступної програми</h2>
+
+            <p class="condition">const userName = 20
+              userName = "Іштван"</p>
+
+            <p class="respond"> Відповідь: так буде адже значення константи не змінне </p>
+
+          </div>
+
+          <div class="homework__item">
+
+            <h2 class="question">Задача №3
+              Що потрапить в консоль?</h2>
+
+            <p class="condition">
+              let numOne = 20
+              let numTwo = "20"
+              let numSumm = numOne + numTwo
+              console.log(numSumm)
+            </p>
+
+            <p class="respond"> Відповідь: потрапить рядок 2020 адже використовується оператор +, що додає рядок та
+              число
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__cotainer">
+        <h2>2024р</h2>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js">
+  </script>
+</body>
+
+
+</html>
